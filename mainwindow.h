@@ -18,6 +18,12 @@ public:
 private slots:
     void on_actionNew_triggered();
 
+    void on_actionOpen_triggered();
+
+    void on_actionSave_as_triggered();
+
+    void on_actionPrint_triggered();
+
 private:
     Ui::MainWindow *ui;
     QString currentFile = "";
